@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.727)),
+    url(../images/programming-1873854_1280.png) center/cover no-repeat;
+  /* background: red; */
+}
+
+div {
+  color: rgb(206, 206, 206);
+  margin: 0.5em 0;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+}
+span {
+  font-size: 2em;
+}
+@media all and (max-width: 576px) {
+  div {
+    font-size: 1em;
+    letter-spacing: 1.5px;
+  }
+  span {
+    font-size: 1.2em;
+  }
+}
+/* @media all and (max-width: 750px) {
+ 
+  div {
+    font-size: 1.5em;
+  }
+} */

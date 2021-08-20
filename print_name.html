@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/print_name.css" />
+    <title>Print name</title>
+  </head>
+  <body>
+    <div>Welcome, <span class="name">New User</span></div>
+    <div class="div">Pleased to have you on my webpage</div>
+    <script>
+      var user = prompt('Input Username');
+      console.log(user);
+      if (user.length === 0) {
+        alert(`An input is required`);
+        window.location.href = '/print_name.html';
+      } else if (user.length >= 30) {
+        alert(`User input too long`);
+        window.location.href = '/print_name.html';
+      } else {
+        document.querySelector('.name').innerHTML = user;
+      }
+    </script>
+  </body>
+</html>
