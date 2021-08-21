@@ -17,6 +17,8 @@ The link to this second task is embedded in the resume, precisely in the `Experi
 
 ---
 
-[Live Preview](https://adeniyibabatunde.netlify.app/)
+[Live Preview of the Resume](https://adeniyibabatunde.netlify.app/)
+
+[Live Preview of the Name Printer](https://adeniyibabatunde.netlify.app/print_name.html)
 
 Happy coding!
