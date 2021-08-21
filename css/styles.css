@@ -84,6 +84,9 @@
 #experience .intern-logo {
   width: 2.5rem;
 }
+#intern-logo-grow {
+  width: 3rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {

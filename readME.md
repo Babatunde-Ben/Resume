@@ -17,6 +17,6 @@ The link to this second task is embedded in the resume, precisely in the `Experi
 
 ---
 
-[Live Preview]()
+[Live Preview](https://adeniyibabatunde.netlify.app/)
 
 Happy coding!
